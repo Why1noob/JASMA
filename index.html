@@ -5,8 +5,9 @@
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	</head>
 	<body>
+        <b><a href="javascript:readFile("pass.txt")"></a> </b>
 		<section class="loginform cf">  
-			<form name="login" method="POST">  
+			<form name="login">  
     			<ul>  
         		   	<li><label for="password">Password</label>  
         			<input type="password" name="password" placeholder="password" required></li>  
@@ -23,7 +24,7 @@ function checkPass()
     var pass = document.login.password.value;
         if (pass == 'A1b37s86GTR52o0')
         {
-            window.location.href = "main.html";
+            window.open('main.html');
         }
         else{
         	alert ("Login failed");
