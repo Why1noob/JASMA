@@ -1,0 +1,9 @@
+.h-button {
+    outline: #eee solid thin;
+    background-color: #fff8dc;
+}
+.top-offset{
+	border-top: 1%;
+	-webkit-text-fill-color: transparent;
+	background-color: #FFCC66;
+}
