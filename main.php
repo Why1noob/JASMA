@@ -7,7 +7,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 	</head>
 	<body>
-		<div class="top-offset">|<? echo $isLogged ?></div>
+		<div class="top-offset">|</div>
 		<div class="row" style="background-color: #FFCC66;">
 			<div class="col-md-1"></div>
 			<div class="col-md-2 h-button">
